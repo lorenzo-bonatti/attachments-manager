@@ -1,2 +1,2 @@
-# attachments-manager
-A React component for manage images and files in your administration projects
+# Attachments Manager
+A React component for manage images and files in your administration projects.

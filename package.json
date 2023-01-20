@@ -1,0 +1,23 @@
+{
+  "name": "attachments-manager",
+  "version": "0.0.0",
+  "description": "A React component for manage images and files in your administration projects",
+  "main": "src/index.ts",
+  "repository": "https://github.com/lorenzo-bonatti/attachments-manager.git",
+  "author": "Lorenzo Bonatti <imlorenzobonatti@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "build:css": "tailwindcss -i src/styles.css -o dist/styles.css"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "react": "^18.2.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4"
+  }
+}
